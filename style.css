@@ -1,0 +1,116 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+font-family: Arial;
+}
+
+header{
+padding: 30px;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding-left: 300px;
+padding-right: 300px;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap: 30px;
+}
+
+nav a{
+text-decoration:none;
+color:#f4c542;
+font-size:14px;
+}
+section,article {
+    box-sizing: border-box;
+}
+.services{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.secrvice{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: 35px;
+}
+.serv{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    gap: 60px;
+}
+.icon{
+    width: 55px;
+    height: 55px;
+}
+.article-icons{
+    text-align: center;
+}
+.contact-us{
+    background-color: #222222;
+    box-sizing: border-box;
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact{
+    color: white;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 80px;
+    font-size: 40px;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+}
+.inputs-small{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.smallinput{
+    border: none;
+    width: 445px;
+    height: 50px;
+}
+.big-input{
+    width: 458px;
+    height: 212px;
+    border: none;
+    padding-left: 30px;
+    color: #BBBBBB;
+    font-size: 17px;
+}
+.btn{
+    border: none;
+    background-color: #FED136;
+    color: white;
+    width: 214px;
+    height: 68px;
+    cursor: pointer;
+}
+.div-btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+form{
+    display: flex;
+}
