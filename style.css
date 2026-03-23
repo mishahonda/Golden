@@ -1,50 +1,55 @@
-body{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
-
-body{
-font-family: Arial;
-}
-
-header{
-padding: 30px;
-}
-
-header{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding-left: 300px;
-padding-right: 300px;
-}
-
-nav ul{
-display:flex;
-list-style:none;
-gap: 30px;
-}
-
-nav a{
-text-decoration:none;
-color:#f4c542;
-font-size:14px;
-}
-section,article {
+body {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-.services{
+
+body {
+    font-family: Arial;
+}
+
+header {
+    padding: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f4c542;
+    font-size: 14px;
+}
+
+section,
+article {
+    box-sizing: border-box;
+}
+
+.services {
     text-align: center;
     justify-content: center;
     padding-bottom: 80px;
 }
-.secrvice{
+
+.secrvice {
     padding-bottom: 30px;
     padding-top: 30px;
     font-size: 35px;
 }
-.serv{
+
+.serv {
     justify-content: center;
     display: flex;
     text-align: center;
@@ -52,14 +57,17 @@ section,article {
     padding-right: 300px;
     gap: 60px;
 }
-.icon{
+
+.icon {
     width: 55px;
     height: 55px;
 }
-.article-icons{
+
+.article-icons {
     text-align: center;
 }
-.contact-us{
+
+.contact-us {
     background-color: #222222;
     box-sizing: border-box;
     padding-left: 300px;
@@ -68,28 +76,33 @@ section,article {
     flex-direction: column;
     justify-content: center;
 }
-.contact{
+
+.contact {
     color: white;
     text-align: center;
     padding-top: 110px;
     padding-bottom: 80px;
     font-size: 40px;
 }
-.inputs{
+
+.inputs {
     display: flex;
     justify-content: center;
 }
-.inputs-small{
+
+.inputs-small {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.smallinput{
+
+.smallinput {
     border: none;
     width: 445px;
-    height: 50px;
+    height: 56.5px;
 }
-.big-input{
+
+.big-input {
     width: 458px;
     height: 212px;
     border: none;
@@ -97,7 +110,8 @@ section,article {
     color: #BBBBBB;
     font-size: 17px;
 }
-.btn{
+
+.btn {
     border: none;
     background-color: #FED136;
     color: white;
@@ -105,12 +119,14 @@ section,article {
     height: 68px;
     cursor: pointer;
 }
-.div-btn{
+
+.div-btn {
     display: flex;
     justify-content: center;
     padding-top: 60px;
     padding-bottom: 60px;
 }
-form{
+
+form {
     display: flex;
 }
